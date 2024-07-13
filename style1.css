@@ -1,0 +1,274 @@
+
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+}
+section{
+    padding: 28px 8%;
+}
+header{
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(14, 14, 14);
+    z-index: 3;
+    border-bottom: 1px rgba(255, 255, 255, 0.233) solid;
+}
+
+#nav_bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav_logo{
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Minecraftia', sans-serif;
+    font-family: 'Minecraft', sans-serif;
+}
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-item.active a {
+    color: rgb(219, 218, 218);
+    border-bottom: 1px dotted #006466;
+}
+.button-default{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-weight: 650;
+    box-shadow: 0px 0px 10px 2px rgba(70, 70, 70, 0.158);
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    color: #fff;
+    transition: 0.5;
+}
+.button-default:hover{
+    background: linear-gradient(135deg, #002453 24%, #154f75 50%, #165d79 79%, #2a5b8d 100%);
+    color: rgb(214, 214, 214);
+    transition: ease 1s;
+}
+#home{
+    display: flex;
+    min-height: calc(100vh - 98px);
+    font-weight: 400;
+}
+
+#cta{
+    width: 35%;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+#title{
+    font-size: 4rem;
+    color: white;
+}
+#title span{
+    color:#124f68;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    
+}
+#description{
+    color: white;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+#description a{
+    font-family: monospace;
+    text-decoration: none;
+    color:#124f68;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+#description a:hover{
+    font-style: italic;
+}
+#cta-buttons{
+    display: flex;
+}
+#cta-buttons a{
+    text-decoration: none;
+}
+.social-media-btn{
+
+    display: flex;
+    gap: 15px;
+}
+.social-media-btn a{
+    
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.151);
+    
+}
+.social-media-btn a:hover{
+    background: linear-gradient(135deg, #002453 24%, #154f75 50%, #165d79 79%, #2a5b8d 100%);
+}
+#fa-dc svg{
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#fa-yt svg{
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button-default2{
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-weight: 650;
+    box-shadow: 0px 0px 10px 2px rgba(70, 70, 70, 0.158);
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5;
+}
+#coisas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.section-title{
+    color: white;
+    font-size: 1.5635;
+}
+#coisas1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+#coisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    height: 200px;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+}
+#coisa h3{
+    color: whitesmoke;
+    font-size: 23px;
+    border-bottom: 1px dotted #ffffff;
+}
+.coisa-descri{
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Minecraft', sans-serif;
+}
+#footer{
+    width: 100%;
+    padding: 28px 8%;
+    top: 0;
+    background-color: rgb(14, 13, 13);
+    z-index: 3;
+    border-top: 1px rgba(255, 255, 255, 0.233) solid;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: normal;
+}
+.button-default a{
+    color: white;
+    text-decoration: none;
+}
+.button-default2:hover{
+    color: rgb(219, 218, 218);
+    background: linear-gradient(135deg, #002453 24%, #154f75 50%, #165d79 79%, #2a5b8d 100%);
+    transition: 0.5;
+}
+#author{
+    display: flex;
+    text-align: right;
+    font-family: 'Minecraft', sans-serif;
+}
+
+#footer a{
+    color:#124f68;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+    text-decoration: none;
+    font-family: 'Minecraft', sans-serif;
+}
+#footer a:hover{
+    font-style: italic;
+}
+#footer a span{
+    font-family: 'Minecraft', sans-serif;
+}
+#widget{
+    margin-left: 50%;
+    bottom: -70px;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(97, 97, 97, 0.041);
+    border-radius: 10px;
+    height: 500px;
+}
+#nav_logo a{
+    font-family: 'Minecraft', sans-serif;
+    color:#124f68;
+    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
